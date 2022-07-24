@@ -1,0 +1,36 @@
+{
+  "development": {
+    "username": "root",
+    "password": null,
+    "database": "project_final",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "define": {
+      "charset": "utf8mb4",
+      "timestamps": true,
+      "createdAt": "created_at",
+      "updatedAt": "updated_at",
+      "table": {
+        "underscored": true
+      },
+      "script": {
+        "underscored": false
+      }
+    },
+    "logging": false
+  },
+  "test": {
+    "username": "root",
+    "password": null,
+    "database": "database_test",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

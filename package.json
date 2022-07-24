@@ -4,7 +4,42 @@
   "description": "project-final",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.2",
+    "firebase-admin": "^11.0.0",
+    "google-auth-library": "^8.1.1",
+    "jade": "^1.11.0",
+    "jsonwebtoken": "^8.5.1",
+    "mariadb": "^3.0.0",
+    "module-alias": "^2.2.2",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "sequelize": "^6.21.3"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "npm": "^8.15.0",
+    "sequelize-cli": "^6.4.1"
+  },
+  "_moduleAliases": {
+    "@components": "./app/components",
+    "@core": "./app/components/core",
+    "@auth": "./app/components/auth",
+    "@config": "./config",
+    "@models": "./database/models",
+    "@utilities": "./app/utilities",
+    "@profile": "./app/components/profile"
   },
   "repository": {
     "type": "git",
